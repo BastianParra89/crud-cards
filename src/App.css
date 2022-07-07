@@ -1,0 +1,23 @@
+
+
+html,
+body  {
+  font-size: 18px;
+  background-color: #f5f6f7 ;
+  
+}
+
+.App  {
+  font-family: "arial";
+}
+
+
+.card-character {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  gap: 4em;
+}
